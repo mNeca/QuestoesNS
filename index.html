@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f97316" />
+  <title>Questionário — Nadador-Salvador</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Questionário</h1>
+    <p class="tagline">Selecione os temas e responda a 20 questões.</p>
+  </header>
+
+  <main>
+    <section id="screen-topics" class="screen screen--active" aria-live="polite">
+      <h2 class="sr-only">Escolha dos temas</h2>
+      <fieldset class="topics-fieldset">
+        <legend>Temas a incluir no questionário</legend>
+        <label class="topic-check"><input type="checkbox" name="topic" value="ISN" /> ISN</label>
+        <label class="topic-check"><input type="checkbox" name="topic" value="Ser Nadador Salvador" /> Ser Nadador Salvador</label>
+        <label class="topic-check"><input type="checkbox" name="topic" value="Afogamento" /> Afogamento</label>
+        <label class="topic-check"><input type="checkbox" name="topic" value="Praias" /> Praias</label>
+        <label class="topic-check"><input type="checkbox" name="topic" value="Piscinas" /> Piscinas</label>
+        <label class="topic-check"><input type="checkbox" name="topic" value="O Salvamento" /> O Salvamento</label>
+        <label class="topic-check"><input type="checkbox" name="topic" value="Socorro ao Naufrago" /> Socorro ao Naufrago</label>
+        <label class="topic-check"><input type="checkbox" name="topic" value="Acidentes frequentes" /> Acidentes frequentes</label>
+      </fieldset>
+      <label class="select-all">
+        <input type="checkbox" id="select-all" /> Selecionar todos os temas
+      </label>
+      <p id="topic-error" class="msg msg--error" hidden>Selecione pelo menos um tema.</p>
+      <p id="topic-pool-warning" class="msg msg--warn" hidden></p>
+      <button type="button" class="btn btn--primary" id="btn-start">Iniciar questionário</button>
+    </section>
+
+    <section id="screen-quiz" class="screen" hidden aria-live="polite">
+      <div class="quiz-progress">
+        <span id="quiz-progress-text">Pergunta 1 de 20</span>
+        <div class="quiz-progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="20" aria-valuenow="1">
+          <div class="quiz-progress-fill" id="quiz-progress-fill"></div>
+        </div>
+      </div>
+      <p class="question-topic" id="question-topic"></p>
+      <h2 class="question-text" id="question-text"></h2>
+      <div class="options" id="options" role="group" aria-labelledby="question-text"></div>
+      <div id="feedback" class="feedback" hidden></div>
+      <button type="button" class="btn btn--primary" id="btn-next" hidden>Próxima pergunta</button>
+    </section>
+
+    <section id="screen-results" class="screen" hidden aria-live="polite">
+      <h2>Resultado</h2>
+      <p class="results-score" id="results-score"></p>
+      <p class="results-verdict" id="results-verdict"></p>
+      <button type="button" class="btn btn--secondary" id="btn-restart">Novo questionário</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>Questões de estudo — verifique sempre a legislação e manuais oficiais atualizados.</small>
+  </footer>
+
+  <script src="js/quiz-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
