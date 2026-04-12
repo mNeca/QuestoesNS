@@ -26,11 +26,15 @@
 
   const resultsScore = document.getElementById("results-score");
   const resultsVerdict = document.getElementById("results-verdict");
+  const resultsReview = document.getElementById("results-review");
+  const resultsReviewList = document.getElementById("results-review-list");
 
   /** @type {{ topic: string, question: string, correct: string, distractors: string[] }[]} */
   let deck = [];
   let index = 0;
   let correctCount = 0;
+  /** @type {{ num: number, topic: string, question: string, chosen: string, correct: string }[]} */
+  let incorrectLog = [];
   /** @type {{ label: string, text: string, isCorrect: boolean }[]} */
   let currentShuffled = [];
   let answered = false;
@@ -113,6 +117,7 @@
     deck = shuffleInPlace([...pool]).slice(0, TOTAL_QUESTIONS);
     index = 0;
     correctCount = 0;
+    incorrectLog = [];
     answered = false;
     showScreen(screenQuiz);
     renderQuestion();
@@ -186,7 +191,15 @@
       feedbackEl.hidden = false;
       feedbackEl.className = "feedback feedback--bad";
       const correctOne = currentShuffled.find((o) => o.isCorrect);
-      feedbackEl.textContent = `Incorreto. A resposta correta: ${correctOne ? correctOne.text : ""}.`;
+      const correctText = correctOne ? correctOne.text : "";
+      feedbackEl.textContent = `Incorreto. A resposta correta: ${correctText}.`;
+      incorrectLog.push({
+        num: index + 1,
+        topic: deck[index].topic,
+        question: deck[index].question,
+        chosen: choice.text,
+        correct: correctText,
+      });
     }
 
     btnNext.hidden = false;
@@ -214,6 +227,30 @@
       resultsVerdict.classList.add("results-verdict--apto");
       resultsVerdict.textContent = "Apto 😊";
     }
+
+    resultsReviewList.innerHTML = "";
+    if (incorrectLog.length === 0) {
+      resultsReview.hidden = true;
+    } else {
+      resultsReview.hidden = false;
+      incorrectLog.forEach((item) => {
+        const li = document.createElement("li");
+        li.className = "results-review-item";
+        li.innerHTML = `
+          <p class="results-review-q"><span class="results-review-num">Q${item.num}</span> <span class="results-review-topic">${escapeHtml(item.topic)}</span></p>
+          <p class="results-review-text">${escapeHtml(item.question)}</p>
+          <p class="results-review-wrong"><span class="results-review-label">A sua resposta:</span> ${escapeHtml(item.chosen)}</p>
+          <p class="results-review-right"><span class="results-review-label">Resposta correta:</span> ${escapeHtml(item.correct)}</p>
+        `;
+        resultsReviewList.appendChild(li);
+      });
+    }
+  }
+
+  function escapeHtml(text) {
+    const div = document.createElement("div");
+    div.textContent = text;
+    return div.innerHTML;
   }
 
   btnRestart.addEventListener("click", () => {
