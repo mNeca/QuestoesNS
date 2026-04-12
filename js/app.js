@@ -137,7 +137,6 @@
     ]);
 
     currentShuffled = options.map((o, i) => ({
-      label: `Opção ${i + 1}`,
       text: o.text,
       isCorrect: o.isCorrect,
     }));
@@ -158,7 +157,7 @@
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "option-btn";
-      btn.textContent = `${opt.label}: ${opt.text}`;
+      btn.textContent = opt.text;
       btn.dataset.index = String(i);
       btn.addEventListener("click", () => onOptionClick(i));
       optionsEl.appendChild(btn);
