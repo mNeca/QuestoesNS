@@ -434,16 +434,6 @@ const QUIZ_BANK = [
   },
   {
     topic: "Ser Nadador Salvador",
-    question: "",
-    correct: "",
-    distractors: [
-      "",
-      "",
-      "",
-    ],
-  },
-  {
-    topic: "Ser Nadador Salvador",
     question: "Após qualquer tipo de ocorrência na praia, o Nadador-Salvador (NS) é obrigado a preencher que tipo de documento?",
     correct: "O relatório de salvamento",
     distractors: [
@@ -663,18 +653,236 @@ const QUIZ_BANK = [
         piscinas com obrigatoriedade de vigilância",
     ],
   },
+  // —— Afogamento ——
+  {
+    topic: "Afogamento",
+    question: "Em que fase do afogamento, a vítima não faz qualquer tipo de movimento e continua a fazer grandes aspirações de água para o pulmão",
+    correct: "Espasmo glótico;",
+    distractors: [
+      "Aspiração inicial de líquido",
+      "Apneia voluntária",
+      "Apneia terminal",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "Na classificação de afogamento grau 3, como se apresenta o náufrago e quais os procedimentos a tomar:",
+    correct: " Muita espuma na boca e/ou nariz com pulso periférico palpável, administrar \
+      oxigénio (O2) a 15litros/min no local do acidente, Posição Lateral de \
+      Segurança (PLS) e internamento hospitalar",
+    distractors: [
+      "Pouca espuma na boca e/ou nariz, administrar oxigénio (O2) a 15litros/min, \
+        Posição Lateral de Segurança (PLS) e aquecimento corporal",
+      "Pouca espuma na boca e/ou nariz; administrar oxigénio (O2) nasal a 5litros/min, aquecimento corporal, repouso, \
+        tranquilização e observação hospitalar",
+      "Muita espuma na boca e/ou nariz sem pulso periférico palpável, administrar \
+        oxigénio (O2) a 15litros/min no local do acidente, Posição Lateral de \
+        Segurança (PLS) e internamento hospitalar",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "O que é o afogamento?",
+    correct: "É o processo que resulta em insuficiência respiratória por imersão ou \
+              submersão em meio líquido",
+    distractors: [
+      "É o processo que resulta em insuficiência cardíaca por imersão ou submersão em meio líquido",
+      "É o processo que resulta em insuficiência cerebral por imersão ou submersão em meio líquido",
+      "É o processo que resulta em insuficiência cardiocelular por imersão ou submersão em meio líquido",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "O organismo humano consegue sobreviver em situações adversas \
+                extremas e meios inóspitos, até cerca de:",
+    correct: "3 minutos sem oxigénio e 3 horas sem proteção e abrigo",
+    distractors: [
+      "5 minutos sem oxigénio",
+      "5 minutos sem proteção e abrigo",
+      "3 minutos sem oxigénio e 3 dias sem comida",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "A hipoxia, ocorre devido a:",
+    correct: "Diminuição de oxigénio no sangue",
+    distractors: [
+      "Oxigénio a mais no cérebro",
+      "Falta de sangue no cérebro",
+      "Oxigénio a mais no sangue",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "Quais são as fases que caracterizam o afogamento? ",
+    correct: "Apneia voluntária, aspiração inicial de líquido, apneia terminal e espasmo glótico",
+    distractors: [
+      "É a apneia involuntária, aspiração inicial, apneia e espasmo glótico",
+      "É a entrada de água nos pulmões, paragem do coração e falência cerebral",
+      "É a apneia voluntária, aspiração final de líquido e espasmo pulmonar",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "Em que fase do afogamento a vítima encontra-se em pânico total e luta com \
+todas as forças para se manter à superfície, esta etapa pode durar entre 10 a 60 segundos:",
+    correct: "Apneia voluntária",
+    distractors: [
+      "Aspiração inicial de líquido",
+      "Espasmo glótico",
+      "Todas as respostas estão corretas",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "Em que fase do afogamento a vítima não faz qualquer tipo de movimento? ",
+    correct: "Espasmo glótico",
+    distractors: [
+      "Apneia voluntária",
+      "Aspiração inicial de líquido",
+      "Todas as respostas estão corretas",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "Quais os sintomas de um náufrago afogado em grau 2? ",
+    correct: "Pouca espuma na boca e/ou nariz",
+    distractors: [
+      "Pouca espuma na boca",
+      "Muita espuma na boca e/ou nariz",
+      "Muita espuma na boca",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "Quais os sintomas de um náufrago afogado em grau 4? ",
+    correct: "Muita espuma na boca e/ou nariz sem pulso periférico palpável",
+    distractors: [
+      "Pouca espuma na boca e/ou nariz",
+      "Pouca espuma na boca",
+      "Muita espuma na boca e/ou nariz com pulso periférico palpável",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "Na classificação do afogamento, qual o grau em que a vítima se encontra \
+              sem tosse, nem espuma na boca/nariz, nem dificuldades na respiração, \
+              nem paragem respiratória nem Paragem Cardiorrespiratória (PCR)?",
+    correct: "Resgate aquático",
+    distractors: [
+      "Grau 1",
+      "Grau 2",
+      "Grau 4",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "Quais os sintomas de um náufrago em afogamento de grau 4?",
+    correct: "Muita espuma na boca e/ou nariz sem pulso periférico palpáve",
+    distractors: [
+      "Pouca espuma na boca e/ou nariz",
+      "Pouca espuma na boca",
+      "Muita espuma na boca e/ou nariz com pulso periférico palpável",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "A hipotermia ocorre quando a temperatura corporal baixa para além dos",
+    correct: "35ºC",
+    distractors: [
+      "32ºC",
+      "38ºC",
+      "Limites",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "Qual é o tempo médio de sobrevivência de um náufrago, exposto a uma \
+              temperatura da água de 21ºC?",
+    correct: "24 horas",
+    distractors: [
+      "48 horas",
+      "2 a 3 dias",
+      "Nunca mais de 2 dias",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "Em que fase do afogamento acontece a inconsciência da vitima? “Há água \
+              nos pulmões e estômago, podendo haver relaxamento dos esfíncteres”. ",
+    correct: "Apneia terminal",
+    distractors: [
+      "Apneia voluntária",
+      "Espasmo glótico",
+      "Aspiração inicial do líquido",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "Na classificação do afogamento em que grau a vitima se encontra em \
+              paragem cardiorrespiratória (PCR)? ",
+    correct: "Grau 6",
+    distractors: [
+      "Grau 5",
+      "Grau 1 e grau 2",
+      "Grau 4",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "Quais os perigos associados à temperatura da água:",
+    correct: "Hipotermia e Hidrocussão",
+    distractors: [
+      "Hidrocussão e Hipertermia",
+      "Hipotermia e paragem digestiva",
+      "Todas as respostas estão certas",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "As consequências do afogamento são classificadas como?",
+    correct: "Morte, morbidez e ausência de morbidez",
+    distractors: [
+      "Morte, rigidez e ausência de rigidez",
+      "Morte, óbito e ausência de morte",
+      "Apneia voluntaria, aspiração do líquido, apneia terminal e espasmo glótico",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "A vítima começa a perder as forças, existe aspiração de maior quantidade \
+            de líquido podendo ocorrer um laringospasmo. Qual a fase do afogamento \
+            que pode durar entre 60 a 90 segundos? ",
+    correct: "Aspiração inicial de líquido",
+    distractors: [
+      "Apneia terminal",
+      "Espasmo glótico",
+      "Apneia voluntária",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "Um acidente provocado pela súbita exposição à água com a temperatura \
+              5ºC abaixo da temperatura corporal, dá-se o nome de:",
+    correct: "Hidrocussão ou síndrome de imersão",
+    distractors: [
+      "Hipotermia ou hidrocussão",
+      "Hipotermia ou síndrome de imersão",
+      "Hipotermia moderada ou hidrocussão",
+    ],
+  },
+  {
+    topic: "Afogamento",
+    question: "A hipóxia, ocorre devido a:",
+    correct: "Diminuição de oxigénio no sangue",
+    distractors: [
+      "Oxigénio a mais no cérebro",
+      "Falta de sangue no cérebro",
+      "Oxigénio a mais no sangue",
+    ],
+  },
 
 ];
-  // {
-  //   topic: "Ser Nadador Salvador",
-  //   question: "",
-  //   correct: "",
-  //   distractors: [
-  //     "",
-  //     "",
-  //     "",
-  //   ],
-  // },
   // {
   //   topic: "Ser Nadador Salvador",
   //   question: "",
