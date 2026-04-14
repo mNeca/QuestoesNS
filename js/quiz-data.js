@@ -881,18 +881,342 @@ todas as forças para se manter à superfície, esta etapa pode durar entre 10 a
       "Oxigénio a mais no sangue",
     ],
   },
+// —— Praias ——
+  {
+    topic: "Praias",
+    question: "Como é medida a amplitude (altura) da onda?",
+    correct: "Todas as respostas estão corretas",
+    distractors: [
+      "Medida do distúrbio máximo durante um ciclo completo de oscilação",
+      "É medida em relação á linha de equilíbrio da onda",
+      "É medida em metros",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "De quem é a responsabilidade de içar a bandeira, conforme a avaliação do \
+              estado do mar, condições ambientais e/ou por determinação da Autoridade \
+              Marítima Nacional (AMN)?",
+    correct: "Nadador-Salvador",
+    distractors: [
+      "Concessionário",
+      "Banhista",
+      "Todas as respostas estão corretas",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "É da responsabilidade do Nadador-Salvador (NS): ",
+    correct: "Içar/arriar as bandeiras de sinais",
+    distractors: [
+      "Içar/arriar a bandeira azul",
+      "Içar/arriar a bandeira de ouro",
+      "Todas as respostas estão corretas",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "A bandeira xadrez tem as seguintes cores",
+    correct: "Azul e branca",
+    distractors: [
+      "Preto e branco",
+      "Vermelho e amarelo",
+      "Vermelho e branco",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "Do seguinte material, qual não é obrigatório no posto de praia? ",
+    correct: "Binóculos e telemóvel",
+    distractors: [
+      "Carretel e mastro de sinais",
+      "Mala de 1º socorros",
+      "Bandeiras de sinais",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "Qual a cor das bandeirolas de zona de banhos?",
+    correct: "Vermelha e Amarela",
+    distractors: [
+      "Amarela e verde",
+      "Vermelha",
+      "Amarela",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "Quando a crista da onda rebenta à frente da mesma e surge principalmente \
+            na vazante. Identifique qual o tipo de onda descrita? ",
+    correct: "Onda progressiva",
+    distractors: [
+      "Onda mergulhante",
+      "Onda de maré",
+      "Onda espraiada",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "Nas praias fluviais existem vários perigos, sendo característica de um \
+            deles “…a água a cair de um obstáculo forma uma corrente de retorno \
+            sobre ele próprio…”. Estamos a falar de: ",
+    correct: "Retornos",
+    distractors: [
+      "Remoinhos",
+      "Funil ou escoadouro",
+      "Agueiros",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "Quais são os fatores que influenciam o declive numa praia marítima?",
+    correct: "O tamanho das partículas de sedimentos e a intensidade da ação das ondas",
+    distractors: [
+      "O tamanho e a intensidade da ação das ondas",
+      "O tamanho e a intensidade da ação das ondas, assim como, o tipo de areia",
+      "O vento, as ondas, tipo de areia e o fundo",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "O que entende por mar total (set)?",
+    correct: "Sobreposição de grupos de ondas geradas pelo vento na superfície do mar",
+    distractors: [
+      "É um conjunto de sete ondas que vai aumentando de tamanho",
+      "Ondas geradas pelo vento com aspeto mais ou menos regular",
+      "Ondas que se propagam para fora da zona de geração com aspeto regular e cristas longas.",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "Ao conceito de onda, associam-se três em que o Nadador-Salvador (NS) \
+            deve conhecer, para compreender as informações sobre a previsão do  \
+            estado mar e atuar em conformidade. Estamos a falar de que conceitos? ",
+    correct: "Comprimento da onda, período de onda e amplitude de onda",
+    distractors: [
+      "A vaga, ondulação e mar total (SET)",
+      "Onda mergulhante, onda progressiva e onda espraiada",
+      "Correntes de mar, correntes de maré e agueiros",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "A onda mergulhante caracteriza-se por: ",
+    correct: "Onda que rebenta sempre com força e pode, facilmente, atirar um nadador \
+            para o fundo do mar e ocorre geralmente na maré baixa",
+    distractors: [
+      "Onda que rebenta com muita força enrola facilmente um nadador e ocorre na preia-mar",
+      "Onda que rebenta à frente da sua crista e ocorre na vazante",
+      "Onda que surge quando o mar fica encrespado e ocorre na enchente",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "Onda que apenas rebenta quando chega à linha de praia, devido a uma \
+              grande profundidade de água, de forma a que a onda não perde velocidade \
+              e, portanto, não ganha altura, denomina-se por: ",
+    correct: "Onda espraiada",
+    distractors: [
+      "Onda mergulhante",
+      "Todos os tipos de ondas",
+      "Onda progressiva",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "O retorno ao mar da água das ondas e são normalmente mais fortes onde \
+            a praia tem o gradiente mais acentuado. Estamos a falar de: ",
+    correct: "Correntes de mar",
+    distractors: [
+      "Correntes alternas",
+      "Correntes amovíveis",
+      "Correntes de maré",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "A água transportada para a praia acumula-se e procura retornar para o mar \
+              aberto, na zona de maior profundidade. Estamos a falar de que tipo de \
+              correntes? ",
+    correct: "Agueiros ou “Rip current”",
+    distractors: [
+      "Correntes amovíveis",
+      "Correntes de maré",
+      "Correntes de mar",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "Os agueiros podem ser",
+    correct: "Estacionários quando o fundo é rochoso, mantêm-se permanentes ao longo do ano",
+    distractors: [
+      "Móveis quando aparecem subitamente, podendo ser muito fortes",
+      "Estacionários quando estão no mesmo local todo o ano, devido ao seu fundo arenoso",
+      "Móveis quando mudam de local diariamente, sendo extremamente perigosos",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "Que tipos de agueiros conhece?",
+    correct: "Os estacionários, móveis e súbitos",
+    distractors: [
+      "Os estacionários, os móveis e “rip current”",
+      "Os móveis e os imóveis",
+      "Os perigosos e os não perigosos",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "Quais os sinais chaves que são indicadores de estar na presença de uma \
+            “rip current”, agueiro ou golas?",
+    correct: "Todas as respostas estão corretas",
+    distractors: [
+      "Ondas maiores e mais frequentes nos dois lados desta corrente",
+      "Tremura da Água no agueiro, quando à sua volta é lisa",
+      "Cor da água acastanhada devido ao arrastamento da areia do fundo",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "Em Portugal, ocorrem duas marés altas e 2 marés baixas por dia, com \
+intervalo de cerca de",
+    correct: "6h12m entre cada maré alta e baixa e 12h25m entre 2 marés altas consecutivas.",
+    distractors: [
+      "12h25m entre a maré alta e a maré baixa e 6h12m entre duas marés altas consecutivas",
+      "Só existe uma maré baixa e uma maré alta",
+      "6h12m entre cada maré alta e maré baixa e 24h50 minutos entre 2 marés altas consecutivas",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "O Nadador-Salvador (NS) perante um cenário de nevoeiro, que bandeira deve içar? ",
+    correct: "Vermelha, porque é uma situação de risco",
+    distractors: [
+      "Verde, se as condições de mar estivessem boas",
+      "Amarela, porque existe algum perigo",
+      "Aquela que as condições de mar assim exigirem",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "De quem é a responsabilidade da aquisição dos materiais e equipamentos \
+destinados à assistência a banhistas numa zona de apoio balnear (ZAB)?",
+    correct: "Do Concessionário",
+    distractors: [
+      "Da Autoridade Marítima Nacional (AMN)",
+      "Do Nadador-Salvador (NS)",
+      "Do Instituto de Socorros a Náufragos (ISN)",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "O posto de praia e demais materiais complementares destinado à \
+            informação, vigilância e prestação de salvamento, socorro a náufragos e \
+            assistência a banhista, é instalado nas zonas de apoio balnear (ZAB) nos \
+            termos determinados por? ",
+    correct: "O Edital da Capitania do Porto",
+    distractors: [
+      "O Instituto de Socorros a Náufragos (ISN)",
+      "Os concessionários",
+      "Os concessionários",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "Existe um conjunto de materiais complementares ao posto de praia que \
+            não são obrigatórios. Quais são? ",
+    correct: "Mota de água, viatura 4x4, embarcação de pequeno porte, moto 4x4 e apito",
+    distractors: [
+      "Cercado de proteção, boia torpedo, cinto de salvamento e bandeiras de sinais",
+      "Prancha, carretel, vara e mala de 1os socorros",
+      "Boia circular, boia torpedo e armação de praia",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "O cercado de proteção serve para cercar todo o material que faz parte do posto de praia, quantos metros tem?",
+    correct: "5 metros quadrados",
+    distractors: [
+      "6 metros quadrados",
+      "2,5 metros quadrados",
+      "Quatro metros quadrados",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "De que bandeira estamos a falar quando há “condições aceitáveis para a \
+pratica de banhos, assumindo as regras e recomendações de segurança”?",
+    correct: "Bandeira amarela",
+    distractors: [
+      "Bandeira vermelha",
+      "Bandeira azul",
+      "Bandeira verde",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "Para delimitar a área de banhos, deverão ser colocadas próximo da linha \
+            de água e de forma visível duas bandeirolas. Quais as cores destas? ",
+    correct: "Vermelha e Amarela",
+    distractors: [
+      "Amarela e Laranja",
+      "Xadrez de Preto e Branco",
+      "Verde e Amarela",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "Ao período de acalmia entre cada set, dá-se o nome de?",
+    correct: "Sota",
+    distractors: [
+      "Mar chão",
+      "Correntes de maré",
+      "Correntes de mar",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "Classifique as correntes nas praias fluviais:",
+    correct: "Remoinhos, Retornos, Funil ou Escoadouro",
+    distractors: [
+      "Retornos, Funil, Agueiros",
+      "Funil ou Escoadouro, Corrente de Mar",
+      "Agueiros, Retornos, Remoinhos",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "Nos casos em que a frente de praia tem uma extensão igual ou superior a \
+100 metros, é obrigatório manter quantos Nadadores-Salvadores (NS)?",
+    correct: "Obrigatório manter um Nadador-Salvador (NS) por cada 50 metros",
+    distractors: [
+      "Obrigatório manter dois Nadadores-Salvadores (NS) por cada 50 metros",
+      "Obrigatório manter um Nadador-Salvador (NS) por cada 25 metros",
+      "Nenhumas destas respostas estão corretas",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "A maré de sizígia ou maré viva ocorre quando",
+    correct: "O Sol e a Lua estão alinhados com a Terra",
+    distractors: [
+      "O Sol e a Lua formam um ângulo de 90º com a Terra",
+      "A Terra completa uma volta ao Sol",
+      "A Terra completa uma volta no seu próprio eixo",
+    ],
+  },
+  {
+    topic: "Praias",
+    question: "A maré de quadratura ou maré morta ocorre quando",
+    correct: "A Lua e o Sol estão posicionados num ângulo de 90º com a Terra",
+    distractors: [
+      "O Sol e a Lua estão alinhados com a Terra",
+      "Após 12 horas de preia-mar",
+      "A Terra completa uma volta no seu próprio eixo",
+    ],
+  },
 
 ];
-  // {
-  //   topic: "Ser Nadador Salvador",
-  //   question: "",
-  //   correct: "",
-  //   distractors: [
-  //     "",
-  //     "",
-  //     "",
-  //   ],
-  // },
   // {
   //   topic: "Ser Nadador Salvador",
   //   question: "",
