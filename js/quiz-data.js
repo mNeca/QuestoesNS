@@ -538,7 +538,7 @@ const QUIZ_BANK = [
     question: "No exercício das suas funções o Nadador-Salvador (NS) deve ter sempre presente que:",
     correct: "Não é agente de Autoridade, nem seu substituto",
     distractors: [
-      "Não é agente de Autoridade, nem seu substituto",
+      "Pode desempenhar tarefas estranhas á sua atividade",
       "Deve efetuar uma tentativa de salvamento caso exista um grande risco de segurança de vida",
       "Não deve efetuar um salvamento mesmo fora da sua área de responsabilidade",
     ],
