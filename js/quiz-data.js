@@ -1215,18 +1215,277 @@ pratica de banhos, assumindo as regras e recomendações de segurança”?",
       "A Terra completa uma volta no seu próprio eixo",
     ],
   },
-
+    // —— Piscinas ——
+  {
+    topic: "Piscinas",
+    question: "Qual do seguinte material não pertence ao posto de piscina",
+    correct: "Boia torpedo",
+    distractors: [
+      "Boia circular",
+      "Plano rígido",
+      "Mala de 1º socorros",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Na piscina, a vigilância pode ser feita de que forma?",
+    correct: "Estática e dinâmica",
+    distractors: [
+      "Estática e em movimento",
+      "Dinâmica",
+      "Todas as respostas estão corretas",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Quais os perigos associados às piscinas?",
+    correct: "Ambientais e humanos",
+    distractors: [
+      "Balneários",
+      "Crianças e idosos",
+      "Utentes de mobilidade reduzida",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Do seguinte material qual é o obrigatório no posto de piscina?",
+    correct: "Todas as respostas estão corretas",
+    distractors: [
+      "Plano rígido e mala de 1º socorros",
+      "Vara de salvamento e cinto de salvamento",
+      "Boia circular e armação de piscina",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Na sinalética utilizada em piscinas, enquadra-se os seguintes tipos de comunicação:",
+    correct: "Sonora, gestual e verbal",
+    distractors: [
+      "Verbal, visual e acústica",
+      "Visual, acústica e apito",
+      "Apito, rádio e bandeiras",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Os sistemas de observação em piscinas, são técnicas de identificação \
+            proactiva de sinais de afogamento. Quais os sistemas adotados em Portugal?",
+    correct: "Observação total e de vigilância de emergência",
+    distractors: [
+      "Observação parcial e observação total",
+      "Observação por zonas e observação completa",
+      "Observação por zonas e de vigilância de emergência",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Na vigilância em piscina, os indicadores de emergência podem ser:",
+    correct: "Todas as respostas estão corretas",
+    distractors: [
+      "Um banhista que sai da água com as mãos na cabeça",
+      "Um banhista a flutuar em qualquer local da piscina",
+      "Uma ou mais pessoas a apontar numa determinada direção, com uma \
+      expressão facial preocupada",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Como se classifica os tanques em que as características morfológicas e \
+            funcionais que os tornam particularmente adequados ao recreio e diversão \
+            aquática através de acessórios lúdicos? ",
+    correct: "Tanques de Recreio e Diversão",
+    distractors: [
+      "Tanques Desportivos",
+      "Tanques Infantis ou Chapinheiros",
+      "Tanque de Aprendizagem e Recreio",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Diga qual o tempo máximo para auxiliar o utente em caso de incidente em piscina?",
+    correct: "20s",
+    distractors: [
+      "30s",
+      "35s",
+      "40s",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Qual dos Requisitos Técnicos de Segurança está correto?",
+    correct: "Os ralos de fundo, devem estar protegidos por grelhas de segurança \
+apropriadas para que não seja possível alguém ficar preso",
+    distractors: [
+      "Nos períodos de inatividade não deve ser garantido o isolamento do espelho \
+de água prevenindo a ocorrência de acidentes",
+      "As escadas não precisam ser mantidas em perfeitas condições de utilização \
+evitando assim o risco de lesões; ",
+      "As normas de funcionamento e os períodos de vigilância não devem estar \
+afixados em local visível",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Identifique a sinalética(s) destinada á assistência a banhistas nas Piscinas:",
+    correct: "Todas as respostas estão corretas",
+    distractors: [
+      "Placas de Interdição",
+      "Perigos e Riscos",
+      "Recomendações",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Nas piscinas de uso público a contratação dos Nadadores-Salvadores (NS) \
+            é da responsabilidade da:",
+    correct: "Entidade que concessiona a piscina",
+    distractors: [
+      "Assembleia da Câmara Municipal",
+      "Associação de Natação local",
+      "Instituto de Socorros a Náufragos (ISN)",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Quanto à natureza ambiental ou tipologia construtiva, as piscinas \
+distinguem-se em:",
+    correct: "Piscinas ao ar livre, cobertas, combinadas e convertíveis",
+    distractors: [
+      "Piscinas ao ar livre, cobertas, combinadas, transformáveis",
+      "Piscinas cobertas, combinadas, transformáveis e convertíveis",
+      "Piscinas cobertas, combinadas, convertíveis e privadas",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Quanto à valência ou tipologia funcional, as piscinas podem classificar-se \
+            nos seguintes grupos principais:",
+    correct: "Tanques desportivos, aprendizagem e recreio, infantis, recreio e diversão e \
+            polivalentes",
+    distractors: [
+      "Tanques desportivos, aprendizagem e recreio e juniores",
+      "Tanques desportivos, aprendizagem, infantis, recreio e juniores",
+      "Tanques desportivos, aprendizagem e recreio, infantis, juvenis, juniores e polifuncionais",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Alguns dos banhistas nas piscinas, são considerados de risco por \
+            reunirem um conjunto de características que faz deles pessoas mais \
+            suscetíveis de sofrerem uma lesão. São grupo de risco:",
+    correct: "As crianças",
+    distractors: [
+      "Os que não se encontram sob o efeito de álcool",
+      "Os que tem boa mobilidade",
+      "Os que sabem nadar",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "O tipo da lesão e a capacidade de nadar do banhista vão determinar o seu \
+            comportamento e indicar se se trata de uma vítima colaborante ou não. As \
+            lesões mais comuns são? ",
+    correct: "Fraturas, luxações, cãibras e hemorragias",
+    distractors: [
+      "Hemorragias nasais, internas e externas e extensões",
+      "Fraturas, luxações hemorragias e extensões",
+      "Cãibras, hemorragias, luxações e picadas",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Material e equipamento destinados à informação, vigilância, prestação de \
+            socorro e salvamento, obrigatórios nos postos de piscinas, qual não \
+            pertence ao posto de piscina:",
+    correct: "Bandeiras",
+    distractors: [
+      "Armação de piscina",
+      "Boia circular",
+      "Vara de salvamento",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Ter as instruções do Instituto de Socorros a Náufragos (ISN) e ter os meios \
+          de salvamento devidamente arrumados, estamos a falar de que material do \
+          posto de piscina?",
+    correct: "Armação piscina",
+    distractors: [
+      "Cadeira telescópica",
+      "Placar informativo",
+      "Edital de Piscina",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Para efeito de cálculo do número de Nadadores-Salvadores (NS) \
+          empenhados nos dispositivos de segurança aquático em piscinas, deve \
+          atender-se:",
+    correct: "Um NS permanente, quando a lotação instantânea máxima de banhista é de até 400",
+    distractors: [
+      "Um NS permanente, quando a lotação instantânea mínima de banhista é de até 400",
+      "Dois NS permanente, quando a lotação instantânea máxima de banhista é de até 400",
+      "Dois NS permanente, quando a lotação instantânea mínima de banhista é de até 400",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "No decorrer da vigilância o Nadador-Salvador (NS) deve:",
+    correct: " Avisar o colega responsável pela outra zona de vigilância caso os banhistas \
+            de risco mudem de zona.",
+    distractors: [
+      "Dedicar mais tempo aos banhistas que sabem nadar",
+      "Desvalorizar qualquer comportamento que indique problemas",
+      "Usar óculos de sol quando se encontra em piscinas cobertas",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "O Nadador-Salvador (NS) deve ser capaz de verificar a sua zona de \
+            vigilância e estar perto o suficiente para auxiliar em caso de incidente. Esta \
+            pratica é reconhecida internacionalmente e é denominada por:",
+    correct: "Sistema 10:20",
+    distractors: [
+      "Sistema 15:20",
+      "Sistema 20:20",
+      "Sistema 20:30",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Nas piscinas, as normas de funcionamento e os períodos de vigilância \
+      devem ser afixados em local visível. Isto é considerado:",
+    correct: "Requisito técnico de segurança",
+    distractors: [
+      "Indicadores de emergência",
+      "Sistema de segurança",
+      "Sistema de observação",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Em termos de sinalética entre Nadadores-Salvadores (NS), “elevar o braço \
+          acima da cabeça agitando-o em movimentos circulares”. Corresponde a:",
+    correct: "2ª Ajuda",
+    distractors: [
+      "OK",
+      "Submerso",
+      "Parar",
+    ],
+  },
+  {
+    topic: "Piscinas",
+    question: "Segundo o Conselho Nacional da Qualidade (CNQ), as piscinas podem \
+classificar-se com base nos seguintes critérios?",
+    correct: "Ambiente ou tipologia construtiva e valência ou tipologia funcional",
+    distractors: [
+      "Prática desportiva e prática de lazer",
+      "Tipologia ambiental e tipologia valenciana",
+      "Aprendizagem e competição",
+    ],
+  },
+  // —— Piscinas ——
 ];
-  // {
-  //   topic: "Ser Nadador Salvador",
-  //   question: "",
-  //   correct: "",
-  //   distractors: [
-  //     "",
-  //     "",
-  //     "",
-  //   ],
-  // },
   // {
   //   topic: "Ser Nadador Salvador",
   //   question: "",
