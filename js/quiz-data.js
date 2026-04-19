@@ -419,7 +419,7 @@ const QUIZ_BANK = [
     distractors: [
       "Necessita de ir à casa de banho e assim consegue avisar os restantes NS da sua ausência",
       "Realiza um salvamento, garantindo assim que o concessionário ligue para o 112",
-      " Existir trovoada e relâmpagos, para informar os banhistas que a praia tem de estar temporariamente desocupada",
+      "Existir trovoada e relâmpagos, para informar os banhistas que a praia tem de estar temporariamente desocupada",
     ],
   },
   {
@@ -475,7 +475,7 @@ const QUIZ_BANK = [
   {
     topic: "Ser Nadador Salvador",
     question: "Socorrer os banhistas em situações de perigo, de emergência ou de acidente, são: ",
-    correct: " Deveres gerais do Nadador-Salvador (NS)",
+    correct: "Deveres gerais do Nadador-Salvador (NS)",
     distractors: [
       "Deveres especiais do Nadador-Salvador (NS)",
       "Direitos do Nadador-Salvador (NS)",
@@ -667,7 +667,7 @@ const QUIZ_BANK = [
   {
     topic: "Afogamento",
     question: "Na classificação de afogamento grau 3, como se apresenta o náufrago e quais os procedimentos a tomar:",
-    correct: " Muita espuma na boca e/ou nariz com pulso periférico palpável, administrar \
+    correct: "Muita espuma na boca e/ou nariz com pulso periférico palpável, administrar \
       oxigénio (O2) a 15litros/min no local do acidente, Posição Lateral de \
       Segurança (PLS) e internamento hospitalar",
     distractors: [
@@ -1431,7 +1431,7 @@ distinguem-se em:",
   {
     topic: "Piscinas",
     question: "No decorrer da vigilância o Nadador-Salvador (NS) deve:",
-    correct: " Avisar o colega responsável pela outra zona de vigilância caso os banhistas \
+    correct: "Avisar o colega responsável pela outra zona de vigilância caso os banhistas \
             de risco mudem de zona.",
     distractors: [
       "Dedicar mais tempo aos banhistas que sabem nadar",
@@ -1484,19 +1484,337 @@ classificar-se com base nos seguintes critérios?",
       "Aprendizagem e competição",
     ],
   },
-  // —— Piscinas ——
+  // —— O Salvamento ——
+  {
+    topic: "O Salvamento",
+    question: "Quantos elos tem a cadeia de sobrevivência no afogamento?",
+    correct: "5",
+    distractors: [
+      "6",
+      "4",
+      "3",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Na caracterização das fases do salvamento, no reconhecimento, qual a \
+primeira ação que o Nadador-Salvador (NS) deve tomar?",
+    correct: "Alerta SOS - 1º ajuda",
+    distractors: [
+      "Escolher o método de salvamento adequado a situação",
+      "Avaliar as condições do mar e ambientais",
+      "Entrar na água com o meio de salvamento escolhido",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Existem três fases do salvamento. Em que fase o Nadador-salvador (NS) \
+tem que “pensar antes de agir”?",
+    correct: "Planeamento",
+    distractors: [
+      "Reconhecimento",
+      "Acão e planeamento",
+      "Ação",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Existe sinalética especifica entre Nadadores-salvadores (NS). O NS que se \
+              encontra em terra verificar que o outro NS se virou para terra e tem os dois \
+              braços cruzados a cima da cabeça fora de água, o que lhe está a transmitir? ",
+    correct: "Naufrago submerso",
+    distractors: [
+      "O NS necessita de apoio",
+      "Pedido de 2º ajuda",
+      "Naufrago encontra-se mais para trás",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Na cadeia de sobrevivência do afogamento, qual dos elos se considera de maior importância? ",
+    correct: "Todos são de igual modo importantes",
+    distractors: [
+      "Prevenção",
+      "Reconhecer o afogado e ligar 112",
+      "Suporte Básico de Vida (SBV)",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Perante uma situação de múltiplos náufragos, o Nadador-Salvador (NS) \
+            deverá considerar a seguinte triagem:",
+    correct: "Primeiro os náufragos conscientes, entre estes, os não nadadores",
+    distractors: [
+      "Primeiro os náufragos inconscientes",
+      "Primeiro os náufragos conscientes que sabem nadar",
+      "Deverá efetuar o salvamento sem qualquer ordem porque o importante é \
+salvar vidas",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Em que fase do salvamento, o Nadador-Salvador (NS) deve escolher o meio \
+de salvamento:",
+    correct: "No planeamento",
+    distractors: [
+      "No reconhecimento",
+      "Na ação",
+      "Na entrada na água",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Tendo em conta a sinalética usada entre Nadadores-Salvadores (NS), \
+              quando este está na água virado para terra a efetuar movimentos com o \
+              braço lateralizado para cima e para baixo, batendo com a mão na água, \
+              significa que: ",
+    correct: "Necessita de apoio",
+    distractors: [
+      "Está-se a afogar",
+      "O naufrago está submerso",
+      "Está a efetuar o 2º pedido de ajuda",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Dos métodos de salvamento abaixo, indique o de menor e o de maior risco \
+para o Nadador-Salvador (NS)",
+    correct: "Alcançar e rebocar;",
+    distractors: [
+      "Lançar e rebocar",
+      "Caminhar e nadar",
+      "Nadar e rebocar",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Em que fase do salvamento se encontra “reconhecer as prioridades da \
+emergência e quais os procedimentos necessários”? ",
+    correct: "Reconhecimento",
+    distractors: [
+      "Ação",
+      "Planeamento",
+      "Evacuação",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Qual dos métodos de salvamento oferece menos perigo para o Nadador\
+Salvador (NS)?",
+    correct: "Lançar",
+    distractors: [
+      "Remar",
+      "Rebocar",
+      "Caminhar",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Nos princípios do salvamento aquático, em que fase se encontra o \
+“constatar a emergência e assumir a responsabilidade”?  ",
+    correct: "Reconhecimento",
+    distractors: [
+      "Planeamento",
+      "Evasão",
+      "Ação",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Na fase da ação, existem várias formas de efetuar o salvamento e no que \
+diz respeito ao grau de contacto com a vítima. Qual é o método em que \
+utilizamos a vara de salvamento? ",
+    correct: "Alcançar",
+    distractors: [
+      "Lançar",
+      "Caminhar",
+      "Nadar até a vítima",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Qual destes métodos de salvamento oferece mais perigo para o NadadorSalvador (NS)? ",
+    correct: "Nadar",
+    distractors: [
+      "Remar",
+      "Lançar",
+      "Caminhar",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Em que fase do salvamento, o Nadador-Salvador (NS) confirma o número(s) de vítima(s)? ",
+    correct: "No reconhecimento",
+    distractors: [
+      "Na evasão",
+      "No planeamento",
+      "Na ação",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Perante um náufrago consciente, o Nadador-Salvador (NS) deverá?",
+    correct: "Ceder o meio de salvamento ao náufrago, criando uma barreira de \
+interposição entre o NS e o náufrago",
+    distractors: [
+      "Acionar a 2 ajuda",
+      "Dá-lhe 5 insuflações",
+      "Verificar se respira espontaneamente",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "As componentes do resgate aquático na fase de ação, são",
+    correct: "Entrada, aproximação, reboque e transporte",
+    distractors: [
+      "Reconhecimento, planeamento e ação",
+      "Entrada, 2ª ajuda, aproximação e reboque",
+      "Seleção do meio, entrada, reboque e transporte",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Ao chegar à distância de segurança e verificar que o náufrago está \
+aparentemente inconsciente, qual deverá ser o seu procedimento? ",
+    correct: "Acionar a 2ª ajuda",
+    distractors: [
+      "Pedir ajuda, retirar as vias respiratórias fora água e rebocá-lo",
+      "Pede-lhe colaboração no resgate",
+      "Agarrar o náufrago, trazendo-o à superfície se estiver submerso",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Após alcançar o náufrago e verificar que está aparentemente inconsciente \
+como deverá proceder?  ",
+    correct: "Segura o náufrago em reboque convencional, retira as vias respiratórias fora \
+de água, verificar a respiração espontânea, se não ventilar dá-lhe 10 \
+insuflações.",
+    distractors: [
+      "Iniciar o reboque para terra e dar-lhe 2 insuflações de 15 em 15 segundos",
+      "Resgata para terra sem insuflações",
+      "Retirar as vias respiratórias fora de água e dar-lhe 5 insuflações",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Perante uma vítima com suspeita de lesão na cervical, na ausência de \
+alternativa e tendo de extrair a vítima da água. Que reboque utilizaria? ",\
+    correct: "Reboque braços em V",
+    distractors: [
+      "Reboque convencional",
+      "Reboque pelos maxilares",
+      "Reboque com boia circular",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "No algoritmo de salvamento aquático, indique, as operações a realizar na \
+fase de reconhecimento? ",
+    correct: "Alerta SOS, verificar o n.º de náufragos, localizar, avaliar condições de mar",
+    distractors: [
+      "Alerta SOS, aproximar, resgatar, relatar",
+      "Localizar, transportar, avaliar, resgatar",
+      "Verificar n.º de náufragos, localizar, planear, abordar, transportar",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Após o Nadador-Salvador (NS) alcançar o náufrago, verificar que está \
+aparentemente inconsciente e que não respira, como deverá proceder?",
+    correct: "Dá-lhe 10 insuflações e inicia o resgate para terra",
+    distractors: [
+      "Dá-lhe 3 insuflações, inicia o resgate para terra com 5 insuflações de 15 em 15 segundos",
+      "Resgate sem insuflações",
+      "Dá-lhe 5 insuflações, inicia o resgate para terra com 3 insuflações de 15 em 15 segundos",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Quais as técnicas de extração de náufragos em piscina?",
+    correct: "Técnica de declive suave e de declive acentuado",
+    distractors: [
+      "Técnica de arrasto e a 2 nadadores salvadores",
+      "Técnica de bombeiro e por arrasto",
+      "Técnica de declive suave e a 2 nadadores salvadores",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "No sistema de sinalização com apito, é utilizado o seguinte código:",
+    correct: "1 sopro curto para chamar à atenção individualmente de utentes e banhistas. \
+3 sopros longos para sinalizar o inicio de procedimento de salvamento e \
+emergência",
+    distractors: [
+      "1 sopro curto para chamar à atenção de outros Nadadores-Salvadores (NS). \
+3 sopros longos para sinalizar o inicio de procedimento de salvamento e \
+emergência",
+      "2 sopros curtos para chamar à atenção de utentes e banhistas. 1 sopro curto \
+para chamar à atenção de outros Nadadores-Salvadores (NS)",
+      "2 sopros curtos para sinalizar o inicio de procedimento de salvamento e \
+emergência. 3 sopros longos para chamar à atenção de outros Nadadores\
+Salvadores (NS)",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Na cadeia de sobrevivência no afogamento, “caso necessário ligar 112”, \
+refere-se a que elo?",
+    correct: "Reconheça o afogado",
+    distractors: [
+      "Prevenção",
+      "Forneça flutuação",
+      "Retire da água",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Quais os elos da cadeia de sobrevivência no afogado?",
+    correct: "Prevenção, reconheça o afogado, forneça flutuação, retire da água e Suporte \
+Básico de Vida (SBV)",
+    distractors: [
+      "112, Suporte Básico de Vida (SBV), Desfibrilhador Automático Externo (DAE) \
+e Suporte Avançado de Vida (SAV)",
+      "Reconheça o afogado, Suporte Avançado de Vida (SAV), fornecer flutuação \
+e prevenção",
+      "112, reconheça o afogado, Suporte Básico de Vida (SBV) e Desfibrilhador \
+Automático Externo (DAE)",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Quais os cuidados a ter durante os reboques?",
+    correct: "Todas as respostas estão corretas.",
+    distractors: [
+      "Que a vitima tenha sempre as vias respiratórias fora de água",
+      "Que seja seguro para o Nadador-Salvador (NS) e para o náufrago",
+      "Que seja eficiente para o Nadador-Salvador (NS), de forma a que ao chegar \
+a terra não esteja exausto para efetuar manobras de Suporte Básico de Vida \
+(SBV)",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "A máscara de reanimação (pocket mask) deve ser utilizada como mecanismo de barreira",
+    correct: "Para diminuir a transmissão de bactérias",
+    distractors: [
+      "Para aumentar as probabilidades de sucesso",
+      "Para evitar a troca de oxigénio com o dióxido de carbono;",
+      "Para a vítima reanimar mais rapidamente",
+    ],
+  },
+  {
+    topic: "O Salvamento",
+    question: "Como deve proceder o Nadador-Salvador (NS) na abordagem ao náufrago consciente? ",
+    correct: "Todas as respostas estão corretas",
+    distractors: [
+      "Dar indicações curtas, claras e precisas;",
+      "Ceder o meio de salvamento",
+      "Evitar situações de submersão",
+    ],
+  },
+  
 ];
-  // {
-  //   topic: "Ser Nadador Salvador",
-  //   question: "",
-  //   correct: "",
-  //   distractors: [
-  //     "",
-  //     "",
-  //     "",
-  //   ],
-  // },
-  // {
   //   topic: "Ser Nadador Salvador",
   //   question: "",
   //   correct: "",
