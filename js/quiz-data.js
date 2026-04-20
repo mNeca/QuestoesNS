@@ -1699,7 +1699,7 @@ insuflações.",
   {
     topic: "O Salvamento",
     question: "Perante uma vítima com suspeita de lesão na cervical, na ausência de \
-alternativa e tendo de extrair a vítima da água. Que reboque utilizaria? ",\
+alternativa e tendo de extrair a vítima da água. Que reboque utilizaria? ",
     correct: "Reboque braços em V",
     distractors: [
       "Reboque convencional",
@@ -1813,54 +1813,548 @@ a terra não esteja exausto para efetuar manobras de Suporte Básico de Vida \
       "Evitar situações de submersão",
     ],
   },
+
+
+
+  {
+    topic: "Socorro ao Naufrago",
+    question: "O Nadador-Salvador (NS) encontra um banhista aparentemente \
+inconsciente na praia, reúne as condições de segurança e avalia o estado \
+de consciência. Como faz para a avaliação da função respiratória?",
+    correct: " Permeabilização da via aérea e VOS",
+    distractors: [
+      "AVDS",
+      "ABCDE",
+      "Avalia a função cardiocirculatória",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "Numa vitima inconsciente, criança e sabendo que é uma obstrução grave \
+da via aérea, o que deve fazer?  ",
+    correct: "Ligar 112",
+    distractors: [
+      " Iniciar RCP",
+      " Dar 30:2",
+      " Dar 5 insuflações seguidas de 15:2",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "O Nadador-Salvador (NS) depara-se com um banhista em paragem \
+respiratória e tem o kit de oxigenoterapia consigo. Que material deve \
+utilizar?",
+    correct: " Insuflador manual com balonete",
+    distractors: [
+      " Mascara facial simples",
+      " Mascara facial composta",
+      "Todas as respostas estão corretas",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "Qual o débito que o Nadador-Salvador (NS) deve administrar utilizando os \
+óculos nasais?",
+    correct: " Não utilizar débitos superiores a 5 litros/min de 02",
+    distractors: [
+      " Não utilizar débitos superiores a 10 litros/min de 02",
+      " Não utilizar débitos superiores a 15 litros/min de 02",
+      " Todas as respostas estão corretas",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "Perante uma obstrução da via aérea grave numa criança, ficando esta \
+inconsciente, o Nadador-Salvador (NS) deve:",
+    correct: "Ligar 112 e iniciar RCP (15:2)",
+    distractors: [
+      " Permeabilizar a via aérea, dar 5 insuflações seguidas de 1 min de SBV",
+      " Teste VOS, dar 5 insuflações e observar sinais de vida",
+      " Iniciar RCP",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "Qual dos seguintes meios deve utilizar para administrar oxigénio por inalação? ",
+    correct: " Máscara facial composta",
+    distractors: [
+      "Boca-a-boca",
+      " Insuflador manual com balonete",
+      "Todas as respostas estão corretas",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "No grau 3 do afogamento e após a recuperação num adulto, qual a \
+quantidade de oxigénio a administrar? ",
+    correct: "15 l/min",
+    distractors: [
+      "10 l/min",
+      "5 l/min",
+      "3 l/min",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "A permeabilização das vias aéreas, é uma técnica realizada em 2 passos, \
+quais são?",
+    correct: " Extensão da cabeça e elevação da mandíbula, exceto quando houver \
+suspeita de trauma",
+    distractors: [
+      " Extensão da cabeça e elevação da mandíbula",
+      "Hiperextensão da cabeça e elevação do queixo",
+      " A cabeça deve estar sempre na posição neutra",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "Quais os objetivos da posição lateral de segurança?",
+    correct: "Manter as vias aéreas permeáveis e evitar a aspiração do vómito",
+    distractors: [
+      "Realiza-se sempre que a vítima não responde e não respira",
+      "Evitar a aspiração do vómito e manter a cabeça em flexão",
+      "Evitar a pressão sobre o coração e o pulmão direito",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "Quais os cuidados a ter na aplicação das insuflações?",
+    correct: " Inspirar normalmente, colocar a boca no bocal da máscara, insuflar o ar de \
+forma homogénea e ao mesmo tempo verificar se o tórax se eleva",
+    distractors: [
+      " Manter a cabeça da vítima em posição neutra, para o ar ir diretamente para \
+os pulmões",
+      " Inspiração forte, selar bem a boca do Nadador-Salvador (NS) com a da vítima \
+e realizar a insuflação rapidamente, verificando se o tórax se eleva",
+      "As 2 insuflações aplicadas pelo Nadador-Salvador (NS) não devem durar \
+mais de 2 segundos",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "Qual a sequência correta do Suporte Básico de Vida (SBV)?",
+    correct: " Avaliar condições de segurança, avaliar o estado de consciência e \
+permeabilizar a via aérea",
+    distractors: [
+      "Permeabilizar a via aérea, teste de VOS e avaliar do estado de consciência",
+      " Avaliar condições de segurança, permeabilizar a via aérea, teste de VOS",
+      " Ligar 112, permeabilizar a via aérea e 5 insuflações",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "Sempre que o Suporte Básico de Vida (SBV), é aplicado na sequência do \
+resgate aquático, que passos podem ser suprimidos com o objetivo de \
+ganhar tempo? ",
+    correct: "Avaliar o estado de consciência, gritar por ajuda e ligar 112",
+    distractors: [
+      " Avaliar as condições de segurança e avaliar o estado de consciência",
+      "Avaliar condições de segurança e ligar 112",
+      "Teste de VOS e ligar 112",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "No Suporte Básico de Vida (SBV) há uma fase denominada por “avaliação \
+do estado de consciência”, o que deverá fazer o Nadador-Salvador (NS) \
+para avaliar esse estado? ",
+    correct: " Abanar a vitima nos ombros e pergunta em voz alta: “Está bem? Está-me a ouvir?",
+    distractors: [
+      " Havendo condições de segurança agarra um objeto pontiagudo e pica \
+levemente a vítima para ver se há resposta",
+      " Presta-lhe 1 minuto de SBV, se a vítima se encontrar inconsciente",
+      " Se estão asseguradas as condições de segurança, aciona a 2ª ajuda",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "Numa situação em que o náufrago se encontre em paragem \
+cardiorrespiratória, quando é que o Nadador-Salvador (NS) deixa de prestar \
+o Suporte Básico de Vida (SBV)?",
+    correct: "Quando a vítima respirar normalmente, chegar a ajuda diferenciada que tome \
+conta da situação ou exaustão do NS",
+    distractors: [
+      " Até a vítima mexer os olhos, ou ficar uma marca vermelha na zona onde o NS faz as compressões",
+      " Até chegarem os familiares da vítima",
+      " Ao fim de 3 ciclos de compressões e insuflações",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "No algoritmo do suporte básico de vida (SBV), se a vitima não ventila e \
+após ligar 112, qual é o próximo passo?",
+    correct: "Ressuscitação Cárdio Pulmonar (RCP)",
+    distractors: [
+      " Faz a permeabilização da via aérea",
+      " Verifica a respiração (VOS)",
+      "Coloca em posição lateral de segurança (PLS)",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "Sendo caso pediátrico e estando sozinho, quando é que o Nadador\
+Salvador (NS) aciona 2ª ajuda?",
+    correct: "Após um minuto de Suporte Básico de Vida (SBV)",
+    distractors: [
+      "Após verificar que não ventila",
+      " Após a permeabilização da via aérea",
+      " Após 5 insuflações",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "Ao efetuar o patrulhamento na sua área de responsabilidade o Nadador \
+Salvador (NS) depara-se com um banhista adulto inconsciente no areal. \
+Após verificar que não ventila, o que deverá fazer?",
+    correct: " Aciona a 2ª ajuda",
+    distractors: [
+      " Inicia Suporte Básico de Vida (SBV) 30:2",
+      " Dá 2 insuflações, inicia Suporte Básico de Vida (SBV) 30:2",
+      "Dá 5 insuflações, 1 minuto de Suporte Básico de Vida (SBV) e ativa o 112",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "Não sendo caso de afogamento, quando é que o Nadador-Salvador (NS) \
+aciona a 2ª ajuda? ",
+    correct: "Após verificar que a vitima não ventila",
+    distractors: [
+      " Após um minuto de Suporte Básico de Vida (SBV)",
+      "Após a permeabilização da via aérea",
+      "Após testar a consciência",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "O Nadador-Salvador (NS) encontra um banhista no areal, inanimado e que \
+não respira. Após acionar a 2ª ajuda qual é o passo seguinte em termos de \
+Suporte Básico de Vida (SBV)? ",
+    correct: " Aplica 30 compressões",
+    distractors: [
+      "Presta um minuto de SBV",
+      " Gritar por ajuda",
+      "Aplica 5 insuflações",
+    ],
+  },
+  {
+    topic: "Socorro ao Naufrago",
+    question: "“A incapacidade de chorar, ruído agudo alto à inspiração ou ausência total \
+de ruído, cianose…”, são sinais e sintomas de obstrução da via aérea. \
+Perante esta descrição, como a classifica quanto à sua gravidade?",
+    correct: "Grave",
+    distractors: [
+      "Ligeira",
+      "Total",
+      "Parcial",
+    ],
+  },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+  // {
+  //   topic: "Socorro ao Naufrago",
+  //   question: "",
+  //   correct: "",
+  //   distractors: [
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  // },
+
+
   
 ];
-  //   topic: "Ser Nadador Salvador",
-  //   question: "",
-  //   correct: "",
-  //   distractors: [
-  //     "",
-  //     "",
-  //     "",
-  //   ],
-  // },
-  // {
-  //   topic: "Ser Nadador Salvador",
-  //   question: "",
-  //   correct: "",
-  //   distractors: [
-  //     "",
-  //     "",
-  //     "",
-  //   ],
-  // },
-  // {
-  //   topic: "Ser Nadador Salvador",
-  //   question: "",
-  //   correct: "",
-  //   distractors: [
-  //     "",
-  //     "",
-  //     "",
-  //   ],
-  // },
-  // {
-  //   topic: "Ser Nadador Salvador",
-  //   question: "",
-  //   correct: "",
-  //   distractors: [
-  //     "",
-  //     "",
-  //     "",
-  //   ],
-  // },
-
-
-
-
 
   // {
-  //   topic: "Ser Nadador Salvador",
+  //   topic: "",
   //   question: "",
   //   correct: "",
   //   distractors: [
